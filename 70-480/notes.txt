@@ -1,0 +1,3 @@
+*----------------- CSS -----------------*
+> Margin controla espaços externos do elemento;
+> Padding controla os espaços internos do elemento;
