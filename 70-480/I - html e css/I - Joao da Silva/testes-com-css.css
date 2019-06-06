@@ -1,0 +1,58 @@
+.teste-div {
+    border-bottom: 30px solid red;
+    border-top: 30px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+
+.triangulo-reto {
+    border-bottom: 30px solid blue;
+    border-top: 30px solid transparent;
+    border-left: 30px solid blue;
+    border-right: 30px solid transparent;
+    width: 0px;
+}
+
+.triangulo-reto2 {
+    border-bottom: 30px solid green;
+    border-right: 30px solid green;
+    border-top: 30px solid transparent;
+    border-left: 30px solid transparent;
+    width: 0;
+}
+
+.triangulo-reto3 {
+    border-top: 30px solid red;
+    border-right: 30px solid red;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    width: 0;
+}
+
+.triangulo-reto4 {
+    border-top: 30px solid orange;
+    border-left: 30px solid orange;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+
+.triangulo-2-cores {
+    border-left: 30px solid pink;
+    border-bottom: 30px solid brown;
+    border-right: 30px solid transparent;
+    border-top: 30px solid transparent;
+    width: 0;
+    float: left;
+}
+
+.triangulo-2-cores2 {
+    border-right: 30px solid limegreen;
+    border-top: 30px solid green;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    width: 0;
+    margin-left: 0;
+    padding-left: 0;
+}

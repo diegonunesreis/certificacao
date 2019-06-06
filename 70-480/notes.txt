@@ -1,3 +1,6 @@
 *----------------- CSS -----------------*
-> Margin controla espaços externos do elemento;
-> Padding controla os espaços internos do elemento;
+> Margin controla espaços externos do elemento.
+> Padding controla os espaços internos do elemento, ou seja, o espaço entre o conteúdo do elemento e a sua borda.
+> box-sizing controla como a largura e a altura de um elemento deve calculada. Ex: se deve considerar o tamanho das bordas como parte do tamanho do elemento, ou não.
+> line-height controla apenas o espaçamento das linhas do texto da página.
+> Sempre use um reset de css. Este, deve ser sempre importado primeiro.
