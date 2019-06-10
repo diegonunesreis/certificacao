@@ -22,9 +22,11 @@ p {
     margin: 20px 0;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
 }
 
 aside a {
@@ -39,11 +41,6 @@ aside h1 {
 
 .redes-sociais li {
     display: inline-block;
-}
-
-footer {
-    background-color: #000;
-    color: #F2FFFC;
 }
 
 nav a {
@@ -84,4 +81,16 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.rodape-pagina {
+    color: #F2FFFC;
+    background-color: black;
+    padding: 20px;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
