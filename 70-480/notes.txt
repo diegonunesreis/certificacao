@@ -4,3 +4,10 @@
 > box-sizing controla como a largura e a altura de um elemento deve calculada. Ex: se deve considerar o tamanho das bordas como parte do tamanho do elemento, ou não.
 > line-height controla apenas o espaçamento das linhas do texto da página.
 > Sempre use um reset de css. Este, deve ser sempre importado primeiro.
+> "display: block" faz com que o elemento empilhe, ou seja, tenha uma linha só dele.
+> "display: inline" faz com que o elemento fique alinhado na mesma linha do elemento vizinho. Um do lado do outro.
+> no "display: inline", não é possível especificar um height para o elemento. Isso só é possível no "display: inline-block".
+> "display: inline-block" é uma espécie de "display: inline", mas com a propriedade de especificar um tamanho.
+> seletor ID não pode se repetir dentro do HTML. Você pode até tentar usar, mas não funcionará.
+> utilize o seletor CLASS para quando quiser dar o mesmo estilo para diversos elementos.
+
