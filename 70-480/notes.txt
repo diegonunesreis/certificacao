@@ -10,4 +10,6 @@
 > "display: inline-block" é uma espécie de "display: inline", mas com a propriedade de especificar um tamanho.
 > seletor ID não pode se repetir dentro do HTML. Você pode até tentar usar, mas não funcionará.
 > utilize o seletor CLASS para quando quiser dar o mesmo estilo para diversos elementos.
-
+> "Position: Absolute" serve para posicionar elementos dentro da pagina independentemente do resto do conteúdo da mesma.
+> "position: relative" posiciona o elemento em relação aos seus vizinhos.
+> "position: fixed" serve para deixar o elemento no lugar que quisermos da janela.
