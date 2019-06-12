@@ -13,3 +13,6 @@
 > "Position: Absolute" serve para posicionar elementos dentro da pagina independentemente do resto do conteúdo da mesma.
 > "position: relative" posiciona o elemento em relação aos seus vizinhos.
 > "position: fixed" serve para deixar o elemento no lugar que quisermos da janela.
+> rem: tem como padrão a fonte do navegador;
+> em: tem como padrão a fonte do elemento pai;
+> ch: tem como base a largura do caractere zero da fonte usada;

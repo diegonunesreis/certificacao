@@ -8,7 +8,7 @@ h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     clear: both;
 }
 main a {
@@ -16,7 +16,7 @@ main a {
 }
 p {
     text-align: justify;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 .navegacao-site {
     background-color: #3C1D3D;
@@ -29,8 +29,8 @@ p {
     font-family: "Open Sans Condensed", sans-serif;
 }
 .navegacao-site h1 {
-    font-size: 30px;
-    margin-bottom: 25px;
+    font-size: 1.5rem;
+    margin-bottom: 0.83em;
 }
 .redes-sociais li {
     display: inline-block;
@@ -55,18 +55,18 @@ nav a {
 }
 .titulo-principal {
     text-align: center;
-    font-size: 60px;
+    font-size: 300%;
     color: #FFF;
     text-transform: uppercase;
     background-color: #851944;
-    padding: 25px;
-    border-bottom: black 10px solid;
+    padding: 1.25rem;
+    border-bottom: 0.5rem solid black;
 }
 main div {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0;
+    padding: 1.5rem 0;
 }
 strong {
     font-weight: bold;
