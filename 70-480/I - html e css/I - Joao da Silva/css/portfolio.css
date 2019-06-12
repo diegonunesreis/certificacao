@@ -1,0 +1,28 @@
+a {
+    font-size: 17px;
+}
+figure {
+    background-color: #FAFFFC;
+    box-sizing: border-box;
+    height: 250px;
+    width: 300px;
+    border: 10px solid black;
+    padding: 16px;
+    margin: 10px;
+}
+.img-trabalho {
+    width: 100%;
+}
+.trabalho-1 {
+    float: left;
+}
+.trabalho-2 {
+    float: left;
+}
+.trabalho-3 {
+    clear: left;
+    float: left;    
+}
+.trabalho-4 {
+    float: left;
+}
