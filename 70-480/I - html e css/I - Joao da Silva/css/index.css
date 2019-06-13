@@ -7,6 +7,7 @@
 }
 .saudacao-inicio {
     color: #889;
+    font-size: 3rem;
 }
 .saudacao-ultima-linha {
     text-align: right;
@@ -14,9 +15,11 @@
 }
 .saudacao strong {
     color: #000;
+    font-size: 2rem;
 }
 .saudacao em {
     color: #851944;
+    font-size: 4rem;
 }
 .botao-index {
     background-color: #851944;
@@ -25,6 +28,8 @@
     width: 400px;
     display: block;
     text-align: center;
+    padding: .5rem;
+    margin: 2.5rem auto;
 }
 .secao-inicio h2 {
     text-transform: uppercase;
@@ -36,10 +41,13 @@
 }
 .trabalhos h2 {
     color: #FFF;
+    font-size: 2.5rem;
+    margin: .8em;
 }
 .trabalhos ul {
     overflow: hidden;
     border: 10px solid black;
+    margin: 0 2rem;
 }
 .trabalhos li {
     float: left;
@@ -53,19 +61,48 @@
     background-color: #999;
     color: #FFF;
     border-bottom: 10px solid #851944;
+    padding: 2.5rem 2rem;
+}
+.blog h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+    line-height: .8;
 }
 .blog li a {
     color: #FCF;
+    line-height: 2;
+}
+.blog ol{
+    margin: 2.5rem .5rem;
 }
 footer {
     background-color: #000;
     color: #FFF;
+    padding: 2.5rem 2rem;
 }
 footer a {
     color: #F99;
+}
+footer h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+    line-height: .8;
 }
 main {
     width: 100%;
     padding-bottom: 0;
     float: none;
+}
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.secao-inicio .saudacao {
+    width: 70%;
+    margin: 80px auto;
+}
+small {
+    font-size: .8rem;
 }
