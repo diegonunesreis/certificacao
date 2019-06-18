@@ -3,6 +3,7 @@
     -webkit-border-radius: 10% 50% / 50% 10%;
     -moz-border-radius: 10% 50% / 50% 10%;
     border-radius: 10% 50% / 50% 10%;
+    box-shadow: 0 0 1em #000;
 }
 .saudacao p {
     color: #99A;
@@ -23,6 +24,9 @@
 .saudacao em {
     color: #851944;
     font-size: 4rem;
+    display: inline-block;
+    -webkit-transform: rotate(-5deg) skew(-10deg);
+    transform: rotate(-5deg) skew(-10deg);
 }
 .botao-index {
     background-color: #851944;
@@ -33,6 +37,7 @@
     text-align: center;
     padding: .5rem;
     margin: 2.5rem auto;
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
 }
 .secao-inicio h2 {
     text-transform: uppercase;
@@ -134,62 +139,117 @@ small {
 }
 .eficiencia {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 80%;
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7degs);
 }
 .responsivo {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 15%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10degs);
 }
 .agilidade {
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 32%;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 .javascript {
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 63%;
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 .acessibilidade {
     position: absolute;
-    top: 15%;
-    left: 28%;
+    top: 23%;
+    left: 26%;
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8degs);
 }
 .design {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 67%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10degs);
 }
 .codigo-limpo {
     position: absolute;
-    top: 25%;
+    top: 37%;
     left: 10%;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10degs);
 }
 .html5 {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 85%;
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7degs);
 }
 .css3 {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 35%;
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7degs);
 }
 .boas-praticas {
     position: absolute;
-    top: 40%;
+    top: 51%;
     left: 23%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10degs);
 }
 .otimizacoes {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 72%;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10degs);
 }
 header {
     position: relative;
 }
 .blog li {
     width: 30%;
+}
+.rede-social-twitter {
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    background-color: #3C1D3D;
+    border: .2em solid black;
+    
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform-origin: 0 0;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
+
+.palavras-home {
+    perspective: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+header h1 {
+    text-shadow: 5px 5px #000;
 }
