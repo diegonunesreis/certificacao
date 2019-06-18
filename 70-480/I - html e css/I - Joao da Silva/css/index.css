@@ -1,5 +1,8 @@
 .foto-home {
     height: 200px;
+    -webkit-border-radius: 10% 50% / 50% 10%;
+    -moz-border-radius: 10% 50% / 50% 10%;
+    border-radius: 10% 50% / 50% 10%;
 }
 .saudacao p {
     color: #99A;
